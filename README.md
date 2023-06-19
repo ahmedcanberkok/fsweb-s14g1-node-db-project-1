@@ -18,12 +18,12 @@
 
 Chrome'u kullanarak [W3Schools.com'da SQL Try Editor'ı](https://www.w3schools.com/Sql/trysql.asp?filename=trysql_select_all) ziyaret edin ve aşağıdaki sorguları oluşturun. Çalıştıktan sonra, projenin kök dizinindeki `queries.sql` dosyasına kopyalayın.
 
-- Posta kodu 1010 olan tüm müşterileri bulun. 3 kayıt döndürür.
-- id'si 11 olan tedarikçinin telefon numarasını bulun. (010) 9984510 olmalıdır.
-- Verilen ilk 10 siparişi, sipariş tarihine göre azalan şekilde sıralayın. 1997-02-12 tarihli sipariş en üstte olmalıdır.
-- Londra, Madrid veya Brezilya'da yaşayan tüm müşterileri bulun. 18 kayıt döndürür.
-- _"The Shire"_ için bir müşteri kaydı ekleyin, ilgili kişi adı _"Bilbo Baggins"_, adres _"Bag End"_ içinde _"1 Hobbit-Hole"_, posta kodu _"111"_ ve ülke _"Orta Dünya"_.
-- _Bilbo Baggins_ kaydını, posta kodu _"11122"_ olacak şekilde güncelleyin.
+- Posta kodu 1010 olan tüm müşterileri bulun. 3 kayıt döndürür.+
+- id'si 11 olan tedarikçinin telefon numarasını bulun. (010) 9984510 olmalıdır.+
+- Verilen ilk 10 siparişi, sipariş tarihine göre azalan şekilde sıralayın. 1997-02-12 tarihli sipariş en üstte olmalıdır.+
+- Londra, Madrid veya Brezilya'da yaşayan tüm müşterileri bulun. 18 kayıt döndürür.+
+- _"The Shire"_ için bir müşteri kaydı ekleyin, ilgili kişi adı _"Bilbo Baggins"_, adres _"Bag End"_ içinde _"1 Hobbit-Hole"_, posta kodu _"111"_ ve ülke _"Orta Dünya"_.+
+- _Bilbo Baggins_ kaydını, posta kodu _"11122"_ olacak şekilde güncelleyin.+
 
 **Sayfadaki 'Veritabanını Geri Yükle' düğmesini tıklayınca veritabanını orijinal verilerle yeniden dolduracak ve yaptığınız tüm değişiklikleri iptal edecektir**.
 
