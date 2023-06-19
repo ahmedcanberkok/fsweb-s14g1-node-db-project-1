@@ -21,7 +21,7 @@ const updateById = async (id, account) => {
 }
 
 const deleteById = id => {
-  // KODLAR BURAYAumber of affected rows for the query.
+  // KODLAR BURAYA
 
 return db('accounts').where("id",id).del() ;
 }
