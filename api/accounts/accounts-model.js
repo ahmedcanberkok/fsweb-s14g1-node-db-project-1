@@ -7,7 +7,9 @@ const getById = id => {
   // KODLAR BURAYA
   return db("accounts").where("id",id).first();
 }
-
+const getByName = name => {
+  return db("accounts").where("name",name).first();
+}
 const create = async account => {
   // KODLAR BURAYA
 const [id] =await db("acounts").insert(account); // Kullanıcı değer bekliyorsa await yazabiliriz.
