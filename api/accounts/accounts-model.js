@@ -18,7 +18,7 @@ return getById(id);
 
 const updateById = async (id, account) => {
   // KODLAR BURAYA
-  const [id] = await db("accounts").update(account);
+  await db("accounts").update(account);
   return getById(id);
 }
 
@@ -31,6 +31,7 @@ return db('accounts').where("id",id).del() ;
 module.exports = {
   getAll,
   getById,
+  getByName,
   create,
   updateById,
   deleteById,
